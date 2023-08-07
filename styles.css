@@ -1,0 +1,111 @@
+body{
+    font-family: monospace;
+    
+}
+
+textarea{
+    font-size: xx-large;
+    position:relative;
+    top: 25px;
+    left: 11%;
+}
+.container{
+    position:relative;
+    top: 25px;
+    left: 10%;
+    
+}
+
+.keyBoxFlex{
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px none black;
+    gap: 3px;
+    justify-content: center;
+}
+
+.numRow, .qRow, .homeRow, .zRow, .spaceRow{
+    display: inline-flex;
+    background-color: whitesmoke;
+    border: 1px none grey;
+    gap: 2px;
+}
+
+.key, .key15{
+    font-family: monospace;
+    font-size: x-large;
+    border: 1px solid grey;
+    width: 67px;
+    height: 67px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.key15:hover{
+    border: 3px solid black;        
+}
+.spaceKey{
+    flex: 5.5;
+}
+
+.blank{
+    flex: 0.2;
+    visibility: hidden;
+}
+.Backspace{
+    flex: 2.5;
+}
+
+.tabKey{
+    flex: 1.35;
+}
+
+.enterKey{
+flex: 2.16;
+}
+
+.capsKey{
+    flex: 2.16;
+}
+
+.shiftKey{
+    flex: 2.5;
+}
+
+.key:hover{
+    border: 2px solid black;
+    /* flex: 1.1; */
+}
+
+.shiftKey:hover{
+    border: 2px solid black;
+    /* flex: 2.75; */
+}
+
+.capsKey:hover{
+    border: 2px solid black;
+    /* flex: 2.36; */
+}
+
+.enterKey:hover{
+    border: 2px solid black;
+    /* flex: 2.33; */
+}
+
+.tabKey:hover{
+    border: 2px solid black;
+    /* flex: 1.46; */
+}
+
+.backspace:hover{
+    border: 2px solid skyblue;
+    /* flex:2.75; */
+}
+
+.blank:hover{
+    border: 1px solid grey;
+}
+
+.hover{
+    border: 3px solid black;
+}
